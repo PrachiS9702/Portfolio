@@ -5,25 +5,86 @@
 <link rel="stylesheet" href="contact.css">
 </head>
 <body>
-<div class="container">
-<header>
-    <h1>Contact Me</h1>
-<div class="header-content">
-<nav>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="/about.html" target="_self">About</a></li>
-        <li><a href="/exp.html" target="_self">Experience</a></li>
-        <li><a href="/contact.html" target="_self">Contact</a></li>
-    </ul>
-</nav>
-</div>
-</header>
+    <header>
+        <div class="header-content">
+            <h1 class="main-title">Contact Me</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="/about.html" target="_self">About</a></li>
+                    <li><a href="/exp.html" target="_self">Experience</a></li>
+                    <li><a href="/contact.html" target="_self" class="active">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
+    <div class="container">
+        <div class="contact-section">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>Let's Connect</h2>
+                    <p>I'm always interested in hearing about new opportunities and exciting projects. Feel free to reach out!</p>
+                    
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="method-icon">📧</div>
+                            <div class="method-info">
+                                <h3>Email</h3>
+                                <p>prachi@example.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="method-icon">📱</div>
+                            <div class="method-info">
+                                <h3>Phone</h3>
+                                <p>+91 98765 43210</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="method-icon">💼</div>
+                            <div class="method-info">
+                                <h3>LinkedIn</h3>
+                                <p>linkedin.com/in/prachi</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="method-icon">🐙</div>
+                            <div class="method-info">
+                                <h3>GitHub</h3>
+                                <p>github.com/prachi</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <h3>Send Me a Message</h3>
+                    <form class="form">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 
-</div>
-<footer>
-    <p>Copyright © 2025 My Portfolio</p>
-</footer>
+    <footer class="footer-content">
+        <p>Copyright 2025 My Portfolio</p>
+    </footer>
 </body>
 </html>
